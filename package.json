@@ -1,6 +1,6 @@
 {
   "name": "speedr-bitset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Light BitSet implementation",
   "author": "Florent Cailhol <florent.cailhol@gmail.com>",
   "repository": "speedr/bitset",
