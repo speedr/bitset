@@ -15,10 +15,12 @@
   ],
   "scripts": {
     "build": "6to5 --source-maps-inline --out-dir lib src",
+    "test": "mocha --compilers js:6to5/register --check-leaks",
     "prepublish": "npm run build"
   },
   "devDependencies": {
-    "6to5": "^2.6.2"
+    "6to5": "^2.6.2",
+    "mocha": "^2.1.0"
   },
   "license": "MIT"
 }
