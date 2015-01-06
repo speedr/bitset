@@ -1,0 +1,24 @@
+{
+  "name": "speedr-bitset",
+  "version": "1.0.0",
+  "description": "Light BitSet implementation",
+  "author": "Florent Cailhol <florent.cailhol@gmail.com>",
+  "repository": "speedr/bitset",
+  "keywords": [
+    "speedr",
+    "bitset",
+    "bits"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "6to5 --source-maps-inline --out-dir lib src",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "6to5": "^2.6.2"
+  },
+  "license": "MIT"
+}
